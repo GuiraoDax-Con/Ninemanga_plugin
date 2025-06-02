@@ -1,0 +1,14 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Este plugin está licenciado bajo la licencia CC BY-NC-SA 4.0.
+Puedes copiarlo, modificarlo y redistribuirlo, siempre que:
+
+1. Des crédito al autor original.
+2. No lo uses con fines comerciales (ni directa ni indirectamente).
+3. Distribuyas las versiones modificadas bajo esta misma licencia.
+
+Autor: [GuiraoDax-Con]
+Año: 2025
+
+Texto completo de la licencia:
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es

@@ -1,0 +1,11 @@
+{
+  "name": "Ninemanga_plugin",
+  "version": "1.0.0",
+  "description": "Plugin de lectura de la pagina Ninemanga para Rulia",
+  "main": "main.js",
+  "author": {
+    "name": "GuiraoDax-Con",
+    "github": "https://github.com/GuiraoDax-Con"
+  },
+  "license": "CC BY-NC-SA 4.0"
+}
