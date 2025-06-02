@@ -1,15 +1,15 @@
+// fetchMangas.js
+
 import puppeteer from 'puppeteer';
 
-async function fetchMangas() {
+export async function fetchMangas() {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
 
   await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36");
   await page.goto('https://es.ninemanga.com/', { waitUntil: 'networkidle2' });
 
-  // Extraer los mangas destacados
   const mangas = await page.evaluate(() => {
-    // Aquí debes ajustar el selector CSS según la estructura actual de la página
     const mangaElements = document.querySelectorAll('.listupd li');
 
     const results = [];
@@ -28,10 +28,6 @@ async function fetchMangas() {
     return results;
   });
 
-  console.log("Mangas destacados:");
-  console.log(mangas);
-
   await browser.close();
+  return mangas;
 }
-
-fetchMangas();
